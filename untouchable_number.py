@@ -13,9 +13,8 @@ def is_untouchable(number):
                 lst.append(x)
             x += 1
         if len(lst) == 0:
-            print(True)
+            return(True)
         else:
-            print(lst)
+            return(lst)
     else:
-        print("Invalid Input")
-is_untouchable(6)
+        return("Invalid Input")
